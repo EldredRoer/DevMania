@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3852E55A1C54C41800EAA2C5 /* AsyncHttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852E5591C54C41800EAA2C5 /* AsyncHttpTask.swift */; };
+		3852E55C1C54F36200EAA2C5 /* MyCouponListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852E55B1C54F36200EAA2C5 /* MyCouponListViewController.swift */; };
+		3852E55E1C566B1F00EAA2C5 /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852E55D1C566B1F00EAA2C5 /* CouponTableViewCell.swift */; };
+		385884FE1C548A7300EC1AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385884FD1C548A7300EC1AC1 /* AppDelegate.swift */; };
+		385885001C548A7300EC1AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385884FF1C548A7300EC1AC1 /* ViewController.swift */; };
+		385885031C548A7300EC1AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385885011C548A7300EC1AC1 /* Main.storyboard */; };
+		385885051C548A7400EC1AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385885041C548A7400EC1AC1 /* Assets.xcassets */; };
+		385885081C548A7400EC1AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385885061C548A7400EC1AC1 /* LaunchScreen.storyboard */; };
+		385885101C54901A00EC1AC1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858850F1C54901A00EC1AC1 /* LocationManager.swift */; };
+		9D0FA9684193A1E848F4E0E0 /* Pods_MyCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F931DCDB841A5DA3D058AD /* Pods_MyCoupon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3852E5591C54C41800EAA2C5 /* AsyncHttpTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncHttpTask.swift; sourceTree = "<group>"; };
+		3852E55B1C54F36200EAA2C5 /* MyCouponListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCouponListViewController.swift; sourceTree = "<group>"; };
+		3852E55D1C566B1F00EAA2C5 /* CouponTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		385884FA1C548A7200EC1AC1 /* MyCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		385884FD1C548A7300EC1AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		385884FF1C548A7300EC1AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		385885021C548A7300EC1AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		385885041C548A7400EC1AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		385885071C548A7400EC1AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		385885091C548A7400EC1AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3858850F1C54901A00EC1AC1 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		66F931DCDB841A5DA3D058AD /* Pods_MyCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC00A466532101ADD37FB9F /* Pods-MyCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCoupon/Pods-MyCoupon.debug.xcconfig"; sourceTree = "<group>"; };
+		D42814FCF23EF998675E46C1 /* Pods-MyCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCoupon/Pods-MyCoupon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385884F71C548A7200EC1AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0FA9684193A1E848F4E0E0 /* Pods_MyCoupon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385884F11C548A6F00EC1AC1 = {
+			isa = PBXGroup;
+			children = (
+				385884FC1C548A7300EC1AC1 /* MyCoupon */,
+				385884FB1C548A7200EC1AC1 /* Products */,
+				EF4F42ADA30A3D7D28214497 /* Pods */,
+				C0324FE966EEDE6DC74C87C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		385884FB1C548A7200EC1AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385884FA1C548A7200EC1AC1 /* MyCoupon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385884FC1C548A7300EC1AC1 /* MyCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				385884FD1C548A7300EC1AC1 /* AppDelegate.swift */,
+				385884FF1C548A7300EC1AC1 /* ViewController.swift */,
+				385885011C548A7300EC1AC1 /* Main.storyboard */,
+				385885041C548A7400EC1AC1 /* Assets.xcassets */,
+				385885061C548A7400EC1AC1 /* LaunchScreen.storyboard */,
+				385885091C548A7400EC1AC1 /* Info.plist */,
+				3858850F1C54901A00EC1AC1 /* LocationManager.swift */,
+				3852E5591C54C41800EAA2C5 /* AsyncHttpTask.swift */,
+				3852E55B1C54F36200EAA2C5 /* MyCouponListViewController.swift */,
+				3852E55D1C566B1F00EAA2C5 /* CouponTableViewCell.swift */,
+			);
+			path = MyCoupon;
+			sourceTree = "<group>";
+		};
+		C0324FE966EEDE6DC74C87C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F931DCDB841A5DA3D058AD /* Pods_MyCoupon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4F42ADA30A3D7D28214497 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC00A466532101ADD37FB9F /* Pods-MyCoupon.debug.xcconfig */,
+				D42814FCF23EF998675E46C1 /* Pods-MyCoupon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385884F91C548A7200EC1AC1 /* MyCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3858850C1C548A7400EC1AC1 /* Build configuration list for PBXNativeTarget "MyCoupon" */;
+			buildPhases = (
+				EA9DC27822E5219CD847CC83 /* Check Pods Manifest.lock */,
+				385884F61C548A7200EC1AC1 /* Sources */,
+				385884F71C548A7200EC1AC1 /* Frameworks */,
+				385884F81C548A7200EC1AC1 /* Resources */,
+				C364D1DDB46769FA3BA7C81C /* Embed Pods Frameworks */,
+				D1F285D4869A212879AAE387 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCoupon;
+			productName = MyCoupon;
+			productReference = 385884FA1C548A7200EC1AC1 /* MyCoupon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385884F21C548A7000EC1AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eber RoEr";
+				TargetAttributes = {
+					385884F91C548A7200EC1AC1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KR535RMFSQ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 385884F51C548A7100EC1AC1 /* Build configuration list for PBXProject "MyCoupon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385884F11C548A6F00EC1AC1;
+			productRefGroup = 385884FB1C548A7200EC1AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385884F91C548A7200EC1AC1 /* MyCoupon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385884F81C548A7200EC1AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385885081C548A7400EC1AC1 /* LaunchScreen.storyboard in Resources */,
+				385885051C548A7400EC1AC1 /* Assets.xcassets in Resources */,
+				385885031C548A7300EC1AC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C364D1DDB46769FA3BA7C81C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCoupon/Pods-MyCoupon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F285D4869A212879AAE387 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCoupon/Pods-MyCoupon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9DC27822E5219CD847CC83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385884F61C548A7200EC1AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385885001C548A7300EC1AC1 /* ViewController.swift in Sources */,
+				3852E55C1C54F36200EAA2C5 /* MyCouponListViewController.swift in Sources */,
+				385884FE1C548A7300EC1AC1 /* AppDelegate.swift in Sources */,
+				3852E55E1C566B1F00EAA2C5 /* CouponTableViewCell.swift in Sources */,
+				385885101C54901A00EC1AC1 /* LocationManager.swift in Sources */,
+				3852E55A1C54C41800EAA2C5 /* AsyncHttpTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		385885011C548A7300EC1AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385885021C548A7300EC1AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		385885061C548A7400EC1AC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385885071C548A7400EC1AC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3858850A1C548A7400EC1AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3858850B1C548A7400EC1AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3858850D1C548A7400EC1AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC00A466532101ADD37FB9F /* Pods-MyCoupon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCoupon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.MyCoupon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3858850E1C548A7400EC1AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42814FCF23EF998675E46C1 /* Pods-MyCoupon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCoupon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.MyCoupon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385884F51C548A7100EC1AC1 /* Build configuration list for PBXProject "MyCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858850A1C548A7400EC1AC1 /* Debug */,
+				3858850B1C548A7400EC1AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3858850C1C548A7400EC1AC1 /* Build configuration list for PBXNativeTarget "MyCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858850D1C548A7400EC1AC1 /* Debug */,
+				3858850E1C548A7400EC1AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385884F21C548A7000EC1AC1 /* Project object */;
+}

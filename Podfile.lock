@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (3.1.5)
+  - StringBuilder (0.1.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - StringBuilder
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  StringBuilder: 73676556a0defec4b7ef6c06413d247ba92015f2
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
